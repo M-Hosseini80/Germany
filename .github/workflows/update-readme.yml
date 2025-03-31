@@ -31,15 +31,15 @@ jobs:
             echo "- [$relative_path]($url)" >> links.txt
           done
           
-      - name: Check and update README with new links
+      - name: Remove old links and update README
         run: |
-          # Ensure there are no duplicate links in the README
-          # First, check if the "Repository Links" section exists and append if not
-          if ! grep -q "## Repository Links" README.md; then
-            echo "## Repository Links" >> README.md
-          fi
+          # Keep only content before "## Repository Links"
+          awk '/## Repository Links/{print; exit} {print}' README.md > temp.md
           
-          # Append the generated links to the README
+          # Overwrite README.md with cleaned-up content
+          mv temp.md README.md
+          
+          # Append new links
           cat links.txt >> README.md
 
       - name: Commit and push updated README
