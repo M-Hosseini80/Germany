@@ -26,15 +26,17 @@ jobs:
 
           # Find all HTML files in the directory and generate links
           find $DIRECTORY -type f -name "*.html" | sort | while read file; do
-            # Create the link for each file (using the correct GitHub Pages path)
+            # Create the link for each file, fixing the URL to point to GitHub Pages
             file_url="https://m-hosseini80.github.io/Germany/${file#./}"
             echo "- [${file#./}](${file_url})" >> LINKS.md
           done
 
       - name: Update README with generated links
         run: |
-          # Append the generated links to the README file
-          cat LINKS.md >> README.md
+          # If the section exists, replace it; otherwise, add it.
+          awk '/<!-- START FILE LINKS -->/{exit}1' README.md > temp.md
+          cat temp.md LINKS.md > README.md
+          rm temp.md LINKS.md
 
       - name: Commit and push if there are changes
         run: |
