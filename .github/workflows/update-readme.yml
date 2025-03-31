@@ -28,12 +28,14 @@ jobs:
             echo "- [$relative_path]($url)" >> links.txt
           done
           
-      - name: Append new links to README
+      - name: Update README with new links
         run: |
-          # Append header for repository links if it's not already there
+          # Check if the "## Repository Links" section exists and append if not
           if ! grep -q "## Repository Links" README.md; then
+            # Append the header if it doesn't exist
             echo "## Repository Links" >> README.md
           fi
+          
           # Append the generated links to the README
           cat links.txt >> README.md
           
