@@ -15,5 +15,4 @@ A community-driven resource to help international students navigate their journe
 
 
 
-
 [Github](https://github.com/M-Hosseini80/Germany)
