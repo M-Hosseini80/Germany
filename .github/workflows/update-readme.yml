@@ -1,0 +1,40 @@
+name: Update README with File List
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *"  # Runs daily at midnight (optional)
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate file list
+        run: |
+          echo "## 📂 Repository Contents" > FILE_LIST.md
+          echo "" >> FILE_LIST.md
+          
+          find . -type f ! -path "./.git/*" ! -path "./.github/*" ! -name "README.md" ! -name "FILE_LIST.md" | sort | while read file; do
+            file_url="https://github.com/${{ github.repository }}/blob/main/${file#./}"
+            echo "- [${file#./}]($file_url)" >> FILE_LIST.md
+          done
+
+      - name: Update README
+        run: |
+          awk '/<!-- START FILE LIST -->/{exit}1' README.md > temp.md
+          cat temp.md FILE_LIST.md > README.md
+          rm temp.md FILE_LIST.md
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "🔄 Auto-update file list in README"
+          git push
