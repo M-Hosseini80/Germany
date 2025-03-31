@@ -28,17 +28,21 @@ jobs:
             echo "- [$relative_path]($url)" >> links.txt
           done
           
-      - name: Update README with new links
+      - name: Check and update README with new links
         run: |
-          # Check if the "## Repository Links" section exists and append if not
+          # Ensure there are no duplicate links in the README
+          # First, check if the "Repository Links" section exists and append if not
           if ! grep -q "## Repository Links" README.md; then
-            # Append the header if it doesn't exist
             echo "## Repository Links" >> README.md
           fi
           
-          # Append the generated links to the README
-          cat links.txt >> README.md
-          
+          # Check if the links already exist and add only new ones
+          for link in $(cat links.txt); do
+            if ! grep -q "$link" README.md; then
+              echo "$link" >> README.md
+            fi
+          done
+
       - name: Commit and push updated README
         uses: EndBug/add-and-commit@v9
         with:
