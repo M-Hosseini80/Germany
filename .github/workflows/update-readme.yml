@@ -16,15 +16,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         
-      - name: Find all HTML files and generate README links
+      - name: Clear old links and generate new ones
         run: |
+          # Clear the links.txt file to remove old links
+          > links.txt
+          
           # Find all HTML files and generate markdown links
           find . -type f -name "*.html" | sort | while read file; do
             # Get the relative path of the file
             relative_path=$(echo "$file" | sed 's|^\./||')
             # Replace / with the GitHub Pages URL structure
             url="https://m-hosseini80.github.io/Germany/$relative_path"
-            # Add the link to the list (you can customize this to append the output to a README file)
+            # Add the link to the list
             echo "- [$relative_path]($url)" >> links.txt
           done
           
@@ -36,12 +39,8 @@ jobs:
             echo "## Repository Links" >> README.md
           fi
           
-          # Check if the links already exist and add only new ones
-          for link in $(cat links.txt); do
-            if ! grep -q "$link" README.md; then
-              echo "$link" >> README.md
-            fi
-          done
+          # Append the generated links to the README
+          cat links.txt >> README.md
 
       - name: Commit and push updated README
         uses: EndBug/add-and-commit@v9
