@@ -1,4 +1,4 @@
-name: Update README with File List
+name: Update Links in README
 
 on:
   push:
@@ -8,33 +8,40 @@ on:
     - cron: "0 0 * * *"  # Runs daily at midnight (optional)
 
 jobs:
-  update-readme:
+  update-links:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate file list
+      - name: Generate list of links for all HTML files
         run: |
-          echo "## 📂 Repository Contents" > FILE_LIST.md
-          echo "" >> FILE_LIST.md
+          # Output file to store the generated links
+          echo "## Repository Links" > LINKS.md
+          echo "" >> LINKS.md
           
-          find . -type f ! -path "./.git/*" ! -path "./.github/*" ! -name "README.md" ! -name "FILE_LIST.md" | sort | while read file; do
-            file_url="https://github.com/${{ github.repository }}/blob/main/${file#./}"
-            echo "- [${file#./}]($file_url)" >> FILE_LIST.md
+          # Directory to search for HTML files (recursively)
+          DIRECTORY="Germany"
+
+          # Find all HTML files in the directory and generate links
+          find $DIRECTORY -type f -name "*.html" | sort | while read file; do
+            # Create the link (replace `your-username` and `your-repo` with your actual username/repo)
+            file_url="https://m-hosseini80.github.io/Germany/${file#./}"
+            echo "- [${file#./}](${file_url})" >> LINKS.md
           done
 
       - name: Update README
         run: |
-          awk '/<!-- START FILE LIST -->/{exit}1' README.md > temp.md
-          cat temp.md FILE_LIST.md > README.md
-          rm temp.md FILE_LIST.md
+          # Add the generated links to the README or another file
+          awk '/<!-- START FILE LINKS -->/{exit}1' README.md > temp.md
+          cat temp.md LINKS.md > README.md
+          rm temp.md LINKS.md
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "🔄 Auto-update file list in README"
+          git diff --quiet && git diff --staged --quiet || git commit -m "🔄 Auto-update file links in README"
           git push
