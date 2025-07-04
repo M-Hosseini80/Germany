@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
   <title>Germany Guide - Hochschule Magdeburg-Stendal</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet"/>
@@ -107,11 +107,11 @@ caption {
 <main class="p-5 flex-grow">
   <div class="max-w-3xl mx-auto bg-white mt-6 p-6 rounded-xl shadow max-h-max min-h-[600px] flex flex-col">
     <div id="content" class="space-y-4" dir="auto"></div>
-    <div id="navigation" class="flex justify-between pt-8 hidden mt-auto">
-      <button onclick="renderCountryList()" class="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300">🏠 Home</button>
-      <div>
+    <div id="navigation" class="flex text-sm lg:text-mg justify-between pt-8 hidden mt-auto">
+      <button onclick="renderCountryList()" class="gap-4 bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300">🏠 Home</button>
+      <div class="inline-flex gap-2">
         <button id="prevBtn" onclick="prevStep()" class="bg-gray-300 text-gray-800 px-4 py-2 rounded hover:bg-gray-400 disabled:opacity-30">← Back</button>
-        <button id="nextBtn" onclick="nextStep()" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 ml-2 disabled:opacity-30">Next →</button>
+        <button id="nextBtn" onclick="nextStep()" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 disabled:opacity-30">Next →</button>
       </div>
     </div>
   </div>
