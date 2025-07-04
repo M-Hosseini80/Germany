@@ -1,0 +1,173 @@
+{
+  "Iran": [
+    {
+      "file": "000-intro.html",
+      "title": "Intro",
+      "description": "<h3 class='font-bold'>Intro</h3><p>This section covers the intro process for students from Iran planning to study in Germany.</p>"
+    },
+    {
+      "file": "001-decision.html",
+      "title": "Decision",
+      "description": "<h3 class='font-bold'>Decision</h3><p>This section covers the decision process for students from Iran planning to study in Germany.</p>"
+    },
+    {
+      "file": "002-documents.html",
+      "title": "Documents",
+      "description": "<h3 class='font-bold'>Documents</h3><p>This section covers the documents process for students from Iran planning to study in Germany.</p>"
+    },
+    {
+      "file": "003-application.html",
+      "title": "Application",
+      "description": "<h3 class='font-bold'>Application</h3><p>This section covers the application process for students from Iran planning to study in Germany.</p>"
+    },
+    {
+      "file": "004-admission.html",
+      "title": "Admission",
+      "description": "<h3 class='font-bold'>Admission</h3><p>This section covers the admission process for students from Iran planning to study in Germany.</p>"
+    },
+    {
+      "file": "005-visa.html",
+      "title": "Visa",
+      "description": "<h3 class='font-bold'>Visa</h3><p>This section covers the visa process for students from Iran planning to study in Germany.</p>"
+    },
+    {
+      "file": "006-arrival.html",
+      "title": "Arrival",
+      "description": "<h3 class='font-bold'>Arrival</h3><p>This section covers the arrival process for students from Iran planning to study in Germany.</p>"
+    },
+    {
+      "file": "007-accommodation.html",
+      "title": "Accommodation",
+      "description": "<h3 class='font-bold'>Accommodation</h3><p>This section covers the accommodation process for students from Iran planning to study in Germany.</p>"
+    },
+    {
+      "file": "008-settling.html",
+      "title": "Settling",
+      "description": "<h3 class='font-bold'>Settling</h3><p>This section covers the settling process for students from Iran planning to study in Germany.</p>"
+    },
+    {
+      "file": "009-university.html",
+      "title": "University",
+      "description": "<h3 class='font-bold'>University</h3><p>This section covers the university process for students from Iran planning to study in Germany.</p>"
+    },
+    {
+      "file": "010-community.html",
+      "title": "Community",
+      "description": "<h3 class='font-bold'>Community</h3><p>This section covers the community process for students from Iran planning to study in Germany.</p>"
+    }
+  ],
+  "India": [
+    {
+      "file": "000-intro.html",
+      "title": "Intro",
+      "description": "<h3 class='font-bold'>Intro</h3><p>This section covers the intro process for students from India planning to study in Germany.</p>"
+    },
+    {
+      "file": "001-decision.html",
+      "title": "Decision",
+      "description": "<h3 class='font-bold'>Decision</h3><p>This section covers the decision process for students from India planning to study in Germany.</p>"
+    },
+    {
+      "file": "002-documents.html",
+      "title": "Documents",
+      "description": "<h3 class='font-bold'>Documents</h3><p>This section covers the documents process for students from India planning to study in Germany.</p>"
+    },
+    {
+      "file": "003-application.html",
+      "title": "Application",
+      "description": "<h3 class='font-bold'>Application</h3><p>This section covers the application process for students from India planning to study in Germany.</p>"
+    },
+    {
+      "file": "004-admission.html",
+      "title": "Admission",
+      "description": "<h3 class='font-bold'>Admission</h3><p>This section covers the admission process for students from India planning to study in Germany.</p>"
+    },
+    {
+      "file": "005-visa.html",
+      "title": "Visa",
+      "description": "<h3 class='font-bold'>Visa</h3><p>This section covers the visa process for students from India planning to study in Germany.</p>"
+    },
+    {
+      "file": "006-arrival.html",
+      "title": "Arrival",
+      "description": "<h3 class='font-bold'>Arrival</h3><p>This section covers the arrival process for students from India planning to study in Germany.</p>"
+    },
+    {
+      "file": "007-accommodation.html",
+      "title": "Accommodation",
+      "description": "<h3 class='font-bold'>Accommodation</h3><p>This section covers the accommodation process for students from India planning to study in Germany.</p>"
+    },
+    {
+      "file": "008-settling.html",
+      "title": "Settling",
+      "description": "<h3 class='font-bold'>Settling</h3><p>This section covers the settling process for students from India planning to study in Germany.</p>"
+    },
+    {
+      "file": "009-university.html",
+      "title": "University",
+      "description": "<h3 class='font-bold'>University</h3><p>This section covers the university process for students from India planning to study in Germany.</p>"
+    },
+    {
+      "file": "010-community.html",
+      "title": "Community",
+      "description": "<h3 class='font-bold'>Community</h3><p>This section covers the community process for students from India planning to study in Germany.</p>"
+    }
+  ],
+  "Bangladesh": [
+    {
+      "file": "000-intro.html",
+      "title": "Intro",
+      "description": "<h3 class='font-bold'>Intro</h3><p>This section covers the intro process for students from Bangladesh planning to study in Germany.</p>"
+    },
+    {
+      "file": "001-decision.html",
+      "title": "Decision",
+      "description": "<h3 class='font-bold'>Decision</h3><p>This section covers the decision process for students from Bangladesh planning to study in Germany.</p>"
+    },
+    {
+      "file": "002-documents.html",
+      "title": "Documents",
+      "description": "<h3 class='font-bold'>Documents</h3><p>This section covers the documents process for students from Bangladesh planning to study in Germany.</p>"
+    },
+    {
+      "file": "003-application.html",
+      "title": "Application",
+      "description": "<h3 class='font-bold'>Application</h3><p>This section covers the application process for students from Bangladesh planning to study in Germany.</p>"
+    },
+    {
+      "file": "004-admission.html",
+      "title": "Admission",
+      "description": "<h3 class='font-bold'>Admission</h3><p>This section covers the admission process for students from Bangladesh planning to study in Germany.</p>"
+    },
+    {
+      "file": "005-visa.html",
+      "title": "Visa",
+      "description": "<h3 class='font-bold'>Visa</h3><p>This section covers the visa process for students from Bangladesh planning to study in Germany.</p>"
+    },
+    {
+      "file": "006-arrival.html",
+      "title": "Arrival",
+      "description": "<h3 class='font-bold'>Arrival</h3><p>This section covers the arrival process for students from Bangladesh planning to study in Germany.</p>"
+    },
+    {
+      "file": "007-accommodation.html",
+      "title": "Accommodation",
+      "description": "<h3 class='font-bold'>Accommodation</h3><p>This section covers the accommodation process for students from Bangladesh planning to study in Germany.</p>"
+    },
+    {
+      "file": "008-settling.html",
+      "title": "Settling",
+      "description": "<h3 class='font-bold'>Settling</h3><p>This section covers the settling process for students from Bangladesh planning to study in Germany.</p>"
+    },
+    {
+      "file": "009-university.html",
+      "title": "University",
+      "description": "<h3 class='font-bold'>University</h3><p>This section covers the university process for students from Bangladesh planning to study in Germany.</p>"
+    },
+    {
+      "file": "010-community.html",
+      "title": "Community",
+      "description": "<h3 class='font-bold'>Community</h3><p>This section covers the community process for students from Bangladesh planning to study in Germany.</p>"
+    }
+  ]
+}
