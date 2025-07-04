@@ -3,171 +3,170 @@
     {
       "file": "000-intro.html",
       "title": "Intro",
-      "description": "<h3 class='font-bold'>Intro</h3><p>This section covers the intro process for students from Iran planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>مقدمه</h3>\n        <p>راهنمای کامل برای دانشجویان ایرانی که قصد تحصیل در آلمان دارند.</p>\n        <ul class='list-disc pl-5'>\n            <li><strong>هدف:</strong> آشنایی کلی با فرآیند مهاجرت تحصیلی به آلمان</li>\n            <li><strong>مزایا:</strong> تحصیل رایگان، کیفیت بالای آموزش، تجربه بین‌المللی</li>\n            <li><strong>نکته مهم:</strong> برنامه‌ریزی زودهنگام کلید موفقیت است</li>\n        </ul>\n        "
     },
     {
       "file": "001-decision.html",
       "title": "Decision",
-      "description": "<h3 class='font-bold'>Decision</h3><p>This section covers the decision process for students from Iran planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>تصمیم‌گیری</h3>\n        <p>این مرحله شامل بررسی دلایل تحصیل در آلمان و انتخاب رشته و دانشگاه مناسب است.</p>\n        <table class='table-auto w-full text-sm mt-2'>\n            <tr><th class='text-right'>فاکتور</th><th class='text-right'>توضیح</th></tr>\n            <tr><td>رشته تحصیلی</td><td>آیا بازار کار دارد؟ علاقه‌مند هستید؟</td></tr>\n            <tr><td>شهر</td><td>هزینه زندگی، فرهنگ، آب‌وهوا</td></tr>\n            <tr><td>نوع دانشگاه</td><td>دانشگاه علمی کاربردی یا تحقیق‌محور؟</td></tr>\n        </table>\n        "
     },
     {
       "file": "002-documents.html",
       "title": "Documents",
-      "description": "<h3 class='font-bold'>Documents</h3><p>This section covers the documents process for students from Iran planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>مدارک مورد نیاز</h3>\n        <p>برای اپلای و دریافت ویزا، مدارک مشخصی باید آماده شود:</p>\n        <ul class='list-disc pl-5'>\n            <li>مدرک دیپلم و پیش‌دانشگاهی</li>\n            <li>ریز نمرات ترجمه‌شده رسمی</li>\n            <li>مدرک زبان (TestDaF, IELTS, TOEFL)</li>\n            <li>رزومه و انگیزه‌نامه</li>\n        </ul>\n        "
     },
     {
       "file": "003-application.html",
       "title": "Application",
-      "description": "<h3 class='font-bold'>Application</h3><p>This section covers the application process for students from Iran planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>فرآیند اپلای</h3>\n        <p>روش‌های مختلفی برای ارسال درخواست به دانشگاه‌های آلمان وجود دارد:</p>\n        <ul class='list-disc pl-5'>\n            <li>اپلای مستقیم از طریق وبسایت دانشگاه</li>\n            <li>استفاده از Uni-Assist برای برخی دانشگاه‌ها</li>\n            <li>توجه به ددلاین‌ها (تابستان: ژانویه تا جولای / زمستان: آگوست تا نوامبر)</li>\n        </ul>\n        "
     },
     {
       "file": "004-admission.html",
       "title": "Admission",
-      "description": "<h3 class='font-bold'>Admission</h3><p>This section covers the admission process for students from Iran planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>دریافت پذیرش</h3>\n        <p>پس از ارسال درخواست، منتظر دریافت نامه پذیرش بمانید.</p>\n        <ul class='list-disc pl-5'>\n            <li>نوع پذیرش: مشروط یا قطعی</li>\n            <li>بررسی دقیق مدارک پیوست‌شده</li>\n            <li>برنامه‌ریزی برای مرحله ویزا پس از پذیرش</li>\n        </ul>\n        "
     },
     {
       "file": "005-visa.html",
       "title": "Visa",
-      "description": "<h3 class='font-bold'>Visa</h3><p>This section covers the visa process for students from Iran planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>ویزا</h3>\n        <p>مهم‌ترین بخش سفر شما به آلمان:</p>\n        <ul class='list-disc pl-5'>\n            <li>رزرو وقت سفارت از طریق کارگزاری (مثلاً ویزامتریک)</li>\n            <li>تهیه مدارک مالی (حساب مسدودشده، نامه حمایت مالی)</li>\n            <li>ترجمه رسمی مدارک و فرم درخواست ویزا</li>\n        </ul>\n        "
     },
     {
       "file": "006-arrival.html",
       "title": "Arrival",
-      "description": "<h3 class='font-bold'>Arrival</h3><p>This section covers the arrival process for students from Iran planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>ورود به آلمان</h3>\n        <p>پس از ورود:</p>\n        <ul class='list-disc pl-5'>\n            <li>ثبت‌نام در اداره شهرداری (Anmeldung)</li>\n            <li>افتتاح حساب بانکی آلمانی</li>\n            <li>ثبت‌نام بیمه سلامت</li>\n        </ul>\n        "
     },
     {
       "file": "007-accommodation.html",
       "title": "Accommodation",
-      "description": "<h3 class='font-bold'>Accommodation</h3><p>This section covers the accommodation process for students from Iran planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>محل اقامت</h3>\n        <p>مکان زندگی در آلمان از اهمیت بالایی برخوردار است.</p>\n        <ul class='list-disc pl-5'>\n            <li>خوابگاه‌های دانشجویی (از طریق Studentenwerk)</li>\n            <li>WG (خانه اشتراکی)</li>\n            <li>خانه‌های شخصی (گران‌تر اما مستقل‌تر)</li>\n        </ul>\n        "
     },
     {
       "file": "008-settling.html",
       "title": "Settling",
-      "description": "<h3 class='font-bold'>Settling</h3><p>This section covers the settling process for students from Iran planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>سازگار شدن با زندگی جدید</h3>\n        <p>زندگی در آلمان ممکن است چالش‌برانگیز باشد:</p>\n        <ul class='list-disc pl-5'>\n            <li>فرهنگ و آداب اجتماعی متفاوت</li>\n            <li>سیستم حمل‌ونقل عمومی بسیار کارآمد</li>\n            <li>برخورداری از حمایت دفاتر بین‌المللی دانشگاه</li>\n        </ul>\n        "
     },
     {
       "file": "009-university.html",
       "title": "University",
-      "description": "<h3 class='font-bold'>University</h3><p>This section covers the university process for students from Iran planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>آشنایی با دانشگاه</h3>\n        <p>دانشگاه Hochschule Magdeburg-Stendal چه ویژگی‌هایی دارد؟</p>\n        <ul class='list-disc pl-5'>\n            <li>دوره‌های بین‌المللی به زبان انگلیسی</li>\n            <li>امکانات کامل آزمایشگاهی و تحقیقاتی</li>\n            <li>اساتید مجرب و دسترس‌پذیر</li>\n        </ul>\n        "
     },
     {
       "file": "010-community.html",
       "title": "Community",
-      "description": "<h3 class='font-bold'>Community</h3><p>This section covers the community process for students from Iran planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>جامعه ایرانی‌ها</h3>\n        <p>در دانشگاه و شهر ماگدبورگ، دانشجویان ایرانی فعالی حضور دارند.</p>\n        <ul class='list-disc pl-5'>\n            <li>برگزاری رویدادهای فرهنگی و ایرانی</li>\n            <li>گروه‌های واتساپ، تلگرام و انجمن‌های پشتیبان</li>\n            <li>دسترسی به فروشگاه‌های ایرانی و مواد غذایی حلال</li>\n        </ul>\n        "
     }
   ],
-  "India": [
+ "India": [
     {
       "file": "000-intro.html",
       "title": "Intro",
-      "description": "<h3 class='font-bold'>Intro</h3><p>This section covers the intro process for students from India planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>🇮🇳 Introduction for Indian Students</h3>\n        <p>Welcome to your <strong>Germany Study Guide</strong>! This section introduces the journey ahead and outlines what Indian students can expect when pursuing higher education in Germany.</p>\n        <ul class=\"list-disc ml-6 mt-2\">\n          <li><strong>Academic Landscape:</strong> Learn about public universities, tuition-free programs, and English-taught courses.</li>\n          <li><strong>Career Opportunities:</strong> Explore how studying in Germany boosts international career prospects.</li>\n          <li><strong>Student Lifestyle:</strong> Understand the living costs, cultural diversity, and work-study balance.</li>\n        </ul>\n        "
     },
     {
       "file": "001-decision.html",
       "title": "Decision",
-      "description": "<h3 class='font-bold'>Decision</h3><p>This section covers the decision process for students from India planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>📌 Making the Decision</h3>\n        <p>Deciding to study in Germany from India is a major step. Here's what to consider:</p>\n        <ul class=\"list-disc ml-6 mt-2\">\n          <li><strong>Study Programs:</strong> Match your academic interests with Germany’s top programs.</li>\n          <li><strong>Language:</strong> English courses available, but learning basic German is highly recommended.</li>\n          <li><strong>Financial Planning:</strong> Understand blocked account requirements and cost of living.</li>\n        </ul>\n        "
     },
     {
       "file": "002-documents.html",
       "title": "Documents",
-      "description": "<h3 class='font-bold'>Documents</h3><p>This section covers the documents process for students from India planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>🗂 Required Documents</h3>\n        <p>Indian students must prepare the following documents for successful application:</p>\n        <table class=\"table-auto mt-4 border border-gray-300\">\n          <thead><tr><th class=\"border px-2\">Document</th><th class=\"border px-2\">Required For</th></tr></thead>\n          <tbody>\n            <tr><td class=\"border px-2\">Transcripts & Certificates</td><td class=\"border px-2\">Admission</td></tr>\n            <tr><td class=\"border px-2\">Passport</td><td class=\"border px-2\">Visa & Travel</td></tr>\n            <tr><td class=\"border px-2\">Language Proof (IELTS/German)</td><td class=\"border px-2\">Admission</td></tr>\n            <tr><td class=\"border px-2\">SOP and LORs</td><td class=\"border px-2\">Application Package</td></tr>\n          </tbody>\n        </table>\n        "
     },
     {
       "file": "003-application.html",
       "title": "Application",
-      "description": "<h3 class='font-bold'>Application</h3><p>This section covers the application process for students from India planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>📝 Application Process</h3>\n        <p>Here’s how Indian students can apply to German universities:</p>\n        <ol class=\"list-decimal ml-6 mt-2\">\n          <li>Choose your course and university (DAAD or uni-assist platforms)</li>\n          <li>Gather documents and translate/certify where needed</li>\n          <li>Apply before deadlines – typically in January or July</li>\n          <li>Track your application status via uni-assist or university portal</li>\n        </ol>\n        "
     },
     {
       "file": "004-admission.html",
       "title": "Admission",
-      "description": "<h3 class='font-bold'>Admission</h3><p>This section covers the admission process for students from India planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>🎓 Admission Tips</h3>\n        <p>Once accepted, follow these steps:</p>\n        <ul class=\"list-disc ml-6\">\n          <li>Accept your offer formally and send documents by mail if required.</li>\n          <li>Apply for accommodation as early as possible.</li>\n          <li>Start preparing for the visa appointment.</li>\n        </ul>\n        <p class=\"mt-2 italic\">Important: Admission letters may have conditional requirements. Read carefully.</p>\n        "
     },
     {
       "file": "005-visa.html",
       "title": "Visa",
-      "description": "<h3 class='font-bold'>Visa</h3><p>This section covers the visa process for students from India planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>🛂 Student Visa for Germany</h3>\n        <p>Indian applicants typically apply for a Type D visa. Steps include:</p>\n        <ul class=\"list-disc ml-6 mt-2\">\n          <li>Open a blocked account (e.g., Fintiba, Expatrio)</li>\n          <li>Schedule appointment at the German Embassy or VFS</li>\n          <li>Submit documents: admission letter, proof of funds, travel insurance</li>\n          <li>Attend interview and wait for approval (4–12 weeks)</li>\n        </ul>\n        "
     },
     {
       "file": "006-arrival.html",
       "title": "Arrival",
-      "description": "<h3 class='font-bold'>Arrival</h3><p>This section covers the arrival process for students from India planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>🛬 Arrival in Germany</h3>\n        <p>What to do once you land:</p>\n        <ul class=\"list-disc ml-6 mt-2\">\n          <li>Register your address within 14 days (Anmeldung)</li>\n          <li>Open a local bank account</li>\n          <li>Buy a SIM card and public transport pass</li>\n        </ul>\n        "
     },
     {
       "file": "007-accommodation.html",
       "title": "Accommodation",
-      "description": "<h3 class='font-bold'>Accommodation</h3><p>This section covers the accommodation process for students from India planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>🏡 Finding Accommodation</h3>\n        <p>Options for Indian students:</p>\n        <ul class=\"list-disc ml-6\">\n          <li><strong>Student dormitories:</strong> Affordable but limited slots</li>\n          <li><strong>Private apartments (WG):</strong> Shared housing is common and social</li>\n          <li><strong>Platforms:</strong> wg-gesucht.de, studenten-wg.de, Facebook groups</li>\n        </ul>\n        "
     },
     {
       "file": "008-settling.html",
       "title": "Settling",
-      "description": "<h3 class='font-bold'>Settling</h3><p>This section covers the settling process for students from India planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>🧳 Settling In</h3>\n        <p>Adjust to German life smoothly:</p>\n        <ul class=\"list-disc ml-6\">\n          <li>Learn basic German for daily interactions</li>\n          <li>Use apps like NINA (alerts), DB Navigator, and Google Translate</li>\n          <li>Join university welcome weeks and Indian student associations</li>\n        </ul>\n        "
     },
     {
       "file": "009-university.html",
       "title": "University",
-      "description": "<h3 class='font-bold'>University</h3><p>This section covers the university process for students from India planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>🏫 University Life</h3>\n        <p>Expect a structured yet flexible academic experience:</p>\n        <ul class=\"list-disc ml-6\">\n          <li>Lectures, seminars, and project-based modules</li>\n          <li>Access to world-class labs and libraries</li>\n          <li>Internship and thesis opportunities with German firms</li>\n        </ul>\n        "
     },
     {
       "file": "010-community.html",
       "title": "Community",
-      "description": "<h3 class='font-bold'>Community</h3><p>This section covers the community process for students from India planning to study in Germany.</p>"
+      "description": "\n        <h3 class='font-bold'>🌏 Indian Student Community</h3>\n        <p>Find support and build friendships:</p>\n        <ul class=\"list-disc ml-6\">\n          <li>Join ISA (Indian Students Association)</li>\n          <li>Attend Diwali, Holi, and cultural festivals</li>\n          <li>Stay connected through WhatsApp & Telegram groups</li>\n        </ul>\n        "
     }
-  ],
-  "Bangladesh": [
+  ],"Bangladesh": [
     {
       "file": "000-intro.html",
       "title": "Intro",
-      "description": "<h3 class='font-bold'>Intro</h3><p>This section covers the intro process for students from Bangladesh planning to study in Germany.</p>"
+      "description": "<h3 class='font-bold'>ভূমিকা</h3><p>এই অংশে জার্মানিতে পড়াশোনার জন্য বাংলাদেশের শিক্ষার্থীদের জন্য প্রাথমিক প্রস্তুতি নিয়ে আলোচনা করা হয়েছে।</p><ul><li><strong>উদ্দেশ্য নির্ধারণ:</strong> কেন জার্মানিতে পড়তে চান?</li><li><strong>প্রোগ্রাম নির্বাচন:</strong> ইংরেজি মাধ্যম বা জার্মান ভাষার কোর্স?</li><li><strong>তথ্য সংগ্রহ:</strong> বিশ্ববিদ্যালয় ও শহর সম্পর্কে তথ্য জানুন।</li></ul><p><em>ভবিষ্যতের প্রস্তুতির জন্য একটি দৃঢ় ভিত্তি তৈরি করুন।</em></p>"
     },
     {
       "file": "001-decision.html",
       "title": "Decision",
-      "description": "<h3 class='font-bold'>Decision</h3><p>This section covers the decision process for students from Bangladesh planning to study in Germany.</p>"
+      "description": "<h3 class='font-bold'>সিদ্ধান্ত</h3><p>জার্মানিতে পড়াশোনার জন্য গুরুত্বপূর্ণ সিদ্ধান্ত নিতে সহায়তা করে এই অংশটি।</p><ul><li>স্বপ্ন ও ক্যারিয়ারের লক্ষ্য নির্ধারণ করুন</li><li>পরিবার ও আর্থিক পরিস্থিতি বিবেচনা করুন</li><li>উপযুক্ত শহর ও বিশ্ববিদ্যালয় নির্বাচন করুন</li></ul><p><em>একটি সঠিক সিদ্ধান্ত আপনার ভবিষ্যৎকে গঠন করে।</em></p>"
     },
     {
       "file": "002-documents.html",
       "title": "Documents",
-      "description": "<h3 class='font-bold'>Documents</h3><p>This section covers the documents process for students from Bangladesh planning to study in Germany.</p>"
+      "description": "<h3 class='font-bold'>প্রয়োজনীয় নথিপত্র</h3><p>জার্মানিতে পড়তে গেলে আপনাকে বিভিন্ন নথি প্রস্তুত করতে হবে।</p><ul><li>পাসপোর্ট</li><li>একাডেমিক ট্রান্সক্রিপ্ট ও সার্টিফিকেট</li><li>মোটিভেশন লেটার ও সিভি</li><li>IELTS/TOEFL স্কোর</li></ul><p><em>প্রতিটি নথির যথাযথ অনুবাদ ও সত্যায়ন করুন।</em></p>"
     },
     {
       "file": "003-application.html",
       "title": "Application",
-      "description": "<h3 class='font-bold'>Application</h3><p>This section covers the application process for students from Bangladesh planning to study in Germany.</p>"
+      "description": "<h3 class='font-bold'>আবেদন</h3><p>জার্মান বিশ্ববিদ্যালয়ে আবেদন করার ধাপসমূহ:</p><ol><li>Uni-Assist বা বিশ্ববিদ্যালয়ের ওয়েবসাইটে আবেদন</li><li>সমস্ত প্রয়োজনীয় ডকুমেন্ট আপলোড</li><li>আবেদন ফি পরিশোধ</li></ol><p><em>সময়ে আবেদন করলে ভিসা প্রক্রিয়া সহজ হয়।</em></p>"
     },
     {
       "file": "004-admission.html",
       "title": "Admission",
-      "description": "<h3 class='font-bold'>Admission</h3><p>This section covers the admission process for students from Bangladesh planning to study in Germany.</p>"
+      "description": "<h3 class='font-bold'>ভর্তি</h3><p>ভর্তি নিশ্চিত হওয়ার পর যা যা করতে হবে:</p><ul><li>অফার লেটার পড়ে শর্তগুলি বুঝুন</li><li>শর্ত পূরণ করে বিশ্ববিদ্যালয়কে ইমেইল করুন</li><li>ভিসার জন্য প্রস্তুতি নিন</li></ul><p><em>ভর্তির প্রক্রিয়া শেষ হলে আপনি পরবর্তী ধাপে যেতে প্রস্তুত।</em></p>"
     },
     {
       "file": "005-visa.html",
       "title": "Visa",
-      "description": "<h3 class='font-bold'>Visa</h3><p>This section covers the visa process for students from Bangladesh planning to study in Germany.</p>"
+      "description": "<h3 class='font-bold'>ভিসা</h3><p>বাংলাদেশ থেকে জার্মানির স্টুডেন্ট ভিসা পাওয়ার ধাপসমূহ:</p><ul><li>জার্মান দূতাবাসে অ্যাপয়েন্টমেন্ট নিন</li><li>প্রয়োজনীয় নথি জমা দিন</li><li>ব্লকড অ্যাকাউন্ট খুলুন</li><li>স্বাস্থ্য বীমা ও বাসস্থানের প্রমাণ দিন</li></ul><p><em>ভিসা আবেদন যত আগে করবেন, তত ভালো।</em></p>"
     },
     {
       "file": "006-arrival.html",
       "title": "Arrival",
-      "description": "<h3 class='font-bold'>Arrival</h3><p>This section covers the arrival process for students from Bangladesh planning to study in Germany.</p>"
+      "description": "<h3 class='font-bold'>আগমন</h3><p>জার্মানিতে পৌঁছানোর পর করণীয়:</p><ul><li>বাসস্থান গ্রহণ</li><li>বিশ্ববিদ্যালয়ে রিপোর্ট</li><li>সিটি রেজিস্ট্রেশন</li><li>ব্যাংক অ্যাকাউন্ট ও সিম কার্ড নিন</li></ul><p><em>প্রথম সপ্তাহগুলো অনেক গুরুত্বপূর্ণ।</em></p>"
     },
     {
       "file": "007-accommodation.html",
       "title": "Accommodation",
-      "description": "<h3 class='font-bold'>Accommodation</h3><p>This section covers the accommodation process for students from Bangladesh planning to study in Germany.</p>"
+      "description": "<h3 class='font-bold'>বাসস্থান</h3><p>বাংলাদেশি শিক্ষার্থীদের জন্য বাসস্থানের ধরণসমূহ:</p><ul><li>Studentenwohnheim (ছাত্রাবাস)</li><li>WG (শেয়ার ফ্ল্যাট)</li><li>Private Apartment</li></ul><p><em>Studentenwerk এর মাধ্যমে আগে থেকেই আবেদন করা ভালো।</em></p>"
     },
     {
       "file": "008-settling.html",
       "title": "Settling",
-      "description": "<h3 class='font-bold'>Settling</h3><p>This section covers the settling process for students from Bangladesh planning to study in Germany.</p>"
+      "description": "<h3 class='font-bold'>স্থায়িত্ব লাভ</h3><p>নতুন পরিবেশে মানিয়ে নেওয়ার জন্য টিপস:</p><ul><li>জার্মান ভাষার ক্লাস নিন</li><li>বন্ধুত্ব গড়ে তুলুন</li><li>লোকাল কালচারের সাথে মানিয়ে নিন</li></ul><p><em>নিজেকে মানিয়ে নিতে সময় দিন।</em></p>"
     },
     {
       "file": "009-university.html",
       "title": "University",
-      "description": "<h3 class='font-bold'>University</h3><p>This section covers the university process for students from Bangladesh planning to study in Germany.</p>"
+      "description": "<h3 class='font-bold'>বিশ্ববিদ্যালয় জীবন</h3><p>শিক্ষাজীবনে সাফল্যের জন্য টিপস:</p><ul><li>ক্লাসে নিয়মিত উপস্থিতি</li><li>প্রফেসরদের সাথে যোগাযোগ</li><li>লাইব্রেরি ও অন্যান্য সুবিধা ব্যবহার</li></ul><p><em>একাডেমিক ক্যালেন্ডার অনুযায়ী চলুন।</em></p>"
     },
     {
       "file": "010-community.html",
       "title": "Community",
-      "description": "<h3 class='font-bold'>Community</h3><p>This section covers the community process for students from Bangladesh planning to study in Germany.</p>"
+      "description": "<h3 class='font-bold'>কমিউনিটি</h3><p>বাংলাদেশি কমিউনিটি ও অন্যান্য আন্তর্জাতিক ছাত্রছাত্রীদের সাথে যুক্ত হোন:</p><ul><li>Facebook গ্রুপ ও WhatsApp কমিউনিটি</li><li>Studentenverein-এ অংশগ্রহণ</li><li>ইভেন্ট ও কালচারাল প্রোগ্রামে যোগ দিন</li></ul><p><em>একটি শক্তিশালী নেটওয়ার্ক আপনার জার্নি সহজ করে তুলবে।</em></p>"
     }
   ]
 }

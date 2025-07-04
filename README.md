@@ -23,7 +23,5 @@ This guide is built by the community, for the community. Together, we can make y
 
 👉 [Contribute on GitHub](https://github.com/M-Hosseini80/Germany)
 Thank you for being a part of this community! ♥️
-## Repository Links
-- [Iran/001-decision.html](https://m-hosseini80.github.io/Germany/Iran/001-decision.html)
-- [Iran/002-documents.html](https://m-hosseini80.github.io/Germany/Iran/002-documents.html)
+## Repository Link
 - [index.html](https://m-hosseini80.github.io/Germany/index.html)

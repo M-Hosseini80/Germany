@@ -6,54 +6,59 @@
   <title>Germany Guide - Hochschule Magdeburg-Stendal</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <meta name="robots" content="noindex">
   <style>body { font-family: 'Inter', sans-serif; }</style>
 </head>
 
 <body class="text-gray-800 bg-gray-100 min-h-screen flex flex-col">
-<header class="bg-white shadow px-4 py-4 md:px-8 flex items-center justify-between">
+<header class="bg-white shadow px-4 py-4 lg:px-8 flex items-center justify-between">
   <div class="flex items-center gap-4">
     <a href="#" onclick="renderIntro()">
       <img src="hochschule-logo.svg" alt="Hochschule Logo" class="h-12 w-auto">
     </a>
     <div>
-      <h1 class="text-xl md:text-2xl font-bold text-blue-900">🇩🇪 Germany Guide</h1>
-      <p class="text-sm md:text-base">a roadmap to the Hochschule Magdeburg-Stendal for international students</p>
+      <h1 class="text-sm lg:text-2xl font-bold text-blue-900">🇩🇪 Germany Guide</h1>
+      <p class="text-xs lg:text-base text-gray-700">A roadmap to the Hochschule Magdeburg-Stendal for international students</p>
     </div>
   </div>
 
-  <div class="md:hidden">
-    <button onclick="toggleMenu()" class="text-gray-800 focus:outline-none">
+  <div class="lg:hidden">
+    <button onclick="toggleMenu()" class="text-gray-800 focus:outline-none text-[26px]">
       ☰
     </button>
   </div>
 
-  <nav id="navLinks" class="hidden md:flex space-x-4 text-sm md:text-base">
-    <button onclick="renderCountryList()" class="hover:underline font-semibold">🏠 Home</button>
+  <nav id="navLinks" class="hidden lg:flex space-x-4 text-xs lg:text-base">
+    <button onclick="renderCountryList()" class="hover:underline font-semibold">Home</button>
     <button onclick="loadCountry('Iran')" class="text-blue-900 hover:underline font-semibold">IRAN</button>
     <button onclick="loadCountry('India')" class="text-orange-700 hover:underline font-semibold">INDIA</button>
     <button onclick="loadCountry('Bangladesh')" class="text-green-700 hover:underline font-semibold">BANGLADESH</button>
     <button onclick="renderTeam()" class="text-gray-700 hover:underline">Team</button>
-    <a href="https://www.h2.de" class="text-gray-700 hover:underline" target="_blank">h2.de</a>
+      <a href="https://www.h2.de" class="text-gray-700 hover:underline  flex items-center gap-2" target="_blank">h2.de <svg xmlns="http://www.w3.org/2000/svg" x="0px" class="w-4 " y="0px" viewBox="0 0 30 30">
+<path d="M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z"></path>
+</svg></a>
   </nav>
 </header>
 
 <!-- Mobile nav menu -->
-<div id="mobileMenu" class="md:hidden hidden flex-col items-start px-4 space-y-2 bg-white shadow pb-4">
-  <button onclick="renderCountryList()" class="hover:underline font-semibold">🏠 Home</button>
-  <button onclick="loadCountry('Iran')" class="text-blue-900 hover:underline font-semibold">IRAN</button>
-  <button onclick="loadCountry('India')" class="text-orange-700 hover:underline font-semibold">INDIA</button>
-  <button onclick="loadCountry('Bangladesh')" class="text-green-700 hover:underline font-semibold">BANGLADESH</button>
-  <button onclick="renderTeam()" class="text-gray-700 hover:underline">Team</button>
-  <a href="https://www.h2.de" class="text-gray-700 hover:underline" target="_blank">h2.de</a>
+<div id="mobileMenu" class="flex lg:hidden hidden flex-col items-start px-4 space-y-4 bg-white shadow py-4">
+  <button onclick="renderCountryList()" class="hover:underline font-semibold border-l border-gray-100 pl-4">🏠 Home</button>
+  <button onclick="loadCountry('Iran')" class="text-blue-900 hover:underline font-semibold border-l border-gray-100 pl-4">IRAN</button>
+  <button onclick="loadCountry('India')" class="text-orange-700 hover:underline font-semibold border-l border-gray-100 pl-4">INDIA</button>
+  <button onclick="loadCountry('Bangladesh')" class="text-green-700 hover:underline font-semibold border-l border-gray-100 pl-4">BANGLADESH</button>
+  <button onclick="renderTeam()" class="text-gray-700 hover:underline border-l border-gray-100 pl-4">Team</button>
+  <a href="https://www.h2.de" class="text-gray-700 hover:underline border-l border-gray-100 pl-4 flex items-center gap-2" target="_blank">h2.de <svg xmlns="http://www.w3.org/2000/svg" x="0px" class="w-4 " y="0px" viewBox="0 0 30 30">
+<path d="M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z"></path>
+</svg></a>
 </div>
 
 <main class="p-5 flex-grow">
-  <div class="max-w-3xl mx-auto bg-white mt-6 p-6 rounded-xl shadow h-[60vh] overflow-y-auto flex flex-col">
-    <div id="content" class="space-y-4"></div>
+  <div class="max-w-3xl mx-auto bg-white mt-6 p-6 rounded-xl shadow h-[600px] min-h-max overflow-y-auto flex flex-col">
+    <div id="content" class="space-y-4" dir="auto"></div>
     <div id="navigation" class="flex justify-between pt-8 hidden mt-auto">
       <button onclick="renderCountryList()" class="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300">🏠 Home</button>
       <div>
-        <button id="prevBtn" onclick="prevStep()" class="bg-gray-300 text-gray-800 px-4 py-2 rounded hover:bg-gray-400">← Back</button>
+        <button id="prevBtn" onclick="prevStep()" class="bg-gray-300 text-gray-800 px-4 py-2 rounded hover:bg-gray-400 disabled:opacity-30">← Back</button>
         <button id="nextBtn" onclick="nextStep()" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 ml-2 disabled:opacity-30">Next →</button>
       </div>
     </div>
@@ -92,9 +97,9 @@ function renderIntro() {
     <p class="mb-4">This project is part of our study program <strong>StREaM – Sustainable Resources, Engineering and Management</strong> at Hochschule Magdeburg-Stendal. It supports international students on their journey to Germany.</p>
     <h3 class="text-lg font-semibold mb-1">Select your country:</h3>
     <div class="space-y-3 text-lg">
-      <button onclick="loadCountry('Iran')" class="w-full px-4 py-4 rounded-full border-4 border-black/20 hover:border-black" style="background: linear-gradient(to right, #da0000cc, #ffffff, #239f40cc);">🇮🇷 IRAN</button>
-      <button onclick="loadCountry('India')" class="w-full px-4 py-4 rounded-full border-4 border-black/20 hover:border-black" style="background: linear-gradient(to right, #ff9933cc, #ffffff, #138808cc);">🇮🇳 INDIA</button>
-      <button onclick="loadCountry('Bangladesh')" class="w-full px-4 py-4 rounded-full border-4 border-black/20 hover:border-black" style="background: linear-gradient(to right, #da0000cc, #ffffff, #239f40cc);">🇧🇩 BANGLADESH</button>
+      <button onclick="loadCountry('Iran')" class="w-full px-4 py-4 rounded-full border-4 border-black/20 hover:border-black transition" style="background: linear-gradient(to top, #da0000cc, #ffffff, #239f40cc);">🇮🇷 IRAN</button>
+      <button onclick="loadCountry('India')" class="w-full px-4 py-4 rounded-full border-4 border-black/20 hover:border-black transition" style="background: linear-gradient(to top, #ff9933cc, #ffffff, #138808cc);">🇮🇳 INDIA</button>
+      <button onclick="loadCountry('Bangladesh')" class="w-full px-4 py-4 rounded-full border-4 border-black/20 hover:border-black transition" style="background: linear-gradient(to top, #da0000cc, #ffffff, #239f40cc);">🇧🇩 BANGLADESH</button>
     </div>
     <h3 class="mt-6 text-lg font-semibold">Coming Soon:</h3>
     <div class="space-y-3 text-lg opacity-40 pointer-events-none">
@@ -114,20 +119,24 @@ function renderTeam() {
     <h2 class="text-2xl font-bold text-blue-800 mb-4">Our Team</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center">
       <div class="p-4 bg-gray-100 rounded shadow">
-        <h3 class="text-lg font-semibold">M. Hosseini</h3>
-        <p>Team Lead / Frontend Developer</p>
+        <img src="Mohamad.jpeg" class=""/>
+        <h3 class="text-lg font-semibold">Mohamad 🇮🇷</h3>
+        <p>Coordinator</p>
       </div>
       <div class="p-4 bg-gray-100 rounded shadow">
-        <h3 class="text-lg font-semibold">Teammate 2</h3>
-        <p>Content Designer</p>
+         <img src="Anunay.png" class=""/>
+        <h3 class="text-lg font-semibold">Anunay 🇮🇳</h3>
+        <p>Shaper</p>
       </div>
       <div class="p-4 bg-gray-100 rounded shadow">
-        <h3 class="text-lg font-semibold">Teammate 3</h3>
-        <p>Research & Validation</p>
+         <img src="Asiqur.jpeg" class=""/>
+        <h3 class="text-lg font-semibold">Asiqur 🇧🇩</h3>
+        <p>Resource Investigator</p>
       </div>
       <div class="p-4 bg-gray-100 rounded shadow">
-        <h3 class="text-lg font-semibold">Teammate 4</h3>
-        <p>Visual & Branding</p>
+          <img src="" class=""/>
+        <h3 class="text-lg font-semibold">Akshit 🇮🇳</h3>
+        <p>Plant</p>
       </div>
     </div>
   `;
